@@ -1,0 +1,96 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "05696b30-5ac6-4013-a7ca-c5f42200e62f")
+	(paper "A4")
+	(title_block
+		(title "Coffee Scales")
+		(rev "1")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 115.57 39.37) (xy 115.57 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce03ef1-08b2-4b0e-b94c-afcae94756c3")
+	)
+	(wire
+		(pts
+			(xy 115.57 34.29) (xy 121.92 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f1671c-75f5-4eb6-b69a-2e32617aad10")
+	)
+	(wire
+		(pts
+			(xy 111.76 39.37) (xy 115.57 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7659757d-c3d4-4a55-a4c7-4315ba98315a")
+	)
+	(sheet
+		(at 88.9 35.56)
+		(size 22.86 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 194 194 194 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "4446fde0-836b-40b6-a01e-2c9cfbbf53ae")
+		(property "Sheetname" "Power"
+			(at 88.9 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 88.9 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" output
+			(at 111.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "386cb1c2-b6d7-4862-b3b8-23a2c1028296")
+		)
+		(instances
+			(project "CoffeeScales"
+				(path "/05696b30-5ac6-4013-a7ca-c5f42200e62f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
